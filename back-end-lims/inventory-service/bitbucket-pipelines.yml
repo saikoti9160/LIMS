@@ -1,0 +1,11 @@
+pipelines:
+  branches:
+    develop:
+       - step:
+          name: Build and Deploy Inventory Service
+          image: maven:3.9.3
+          script:
+            # Build the inventory service
+            - mvn clean package -DskipTests=true
+          artifacts:
+            - target/**
