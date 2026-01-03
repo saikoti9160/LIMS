@@ -1,0 +1,14 @@
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: Build and Deploy
+          image: maven:3.9.3
+          caches:
+            - maven
+          script:
+            - cp settings.xml ~/.m2/settings.xml  # Copy settings.xml from root to Maven's default location
+            - mvn clean package -DskipTests=true   # Run Maven build
+            - mvn deploy
+          artifacts:
+            - target/**

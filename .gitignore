@@ -48,3 +48,6 @@ mvnw.cmd
 
 # OS
 Thumbs.db
+
+settings.xml
+**/settings.xml
