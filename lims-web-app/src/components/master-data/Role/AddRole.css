@@ -1,0 +1,118 @@
+.role-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  /* padding: 5px; */
+  border-radius: 5px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.roleContent{
+  width: 100%;
+  .dropdown-header{
+    white-space: nowrap;
+    width: 154px;
+    height: 40px;
+  }
+
+}
+.role-input-div {
+  display: flex;
+  gap: 50px;
+  border: 1px solid #E1E1E1;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  /* width: 100% */
+}
+
+.role-head {
+  color: #0068C2;
+  font-weight: 400;
+  border-bottom: 1px solid #E1E1E1;
+  font-size: 24px;
+  margin: 20px;
+  display: block;
+}
+
+.role-name{
+  width: 100%;
+}
+.role-status {
+  width: 100%;
+  .dynamic-dropdown{
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+.role-div-table {
+  margin: 15px 20px 15px 20px;
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+  padding: 15px 30px 15px 30px;
+}
+
+
+.role-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.head-tr {
+  background-color: #FFF3E6;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  height: 28px;
+}
+
+.head-tr th {
+  padding: 10px 15px;
+  font-size: 22px;
+  color:#0B1722;
+  font-weight: 400;
+  
+}
+
+.head-tr th:first-child {
+  text-align: left;
+  width: 40%;
+}
+
+.body-tr {
+  font-weight: 400;
+  text-align: center;
+}
+
+.body-tr td {
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #535353;
+
+}
+
+.body-tr td:first-child {
+  text-align: left;
+  width: 40%;
+}
+
+
+.body-tr input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  accent-color: #ff9800;
+  cursor: pointer;
+}
+.botton-div{
+  display: flex;
+   justify-content: flex-end;
+   padding: 10px;
+}

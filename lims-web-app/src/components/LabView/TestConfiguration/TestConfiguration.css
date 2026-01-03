@@ -1,0 +1,65 @@
+.testconfig-container{
+    background-color: #FFFDFB;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12.5px;
+    overflow-x: auto;
+    margin-right: 10px;
+    .ReportText{
+        margin-top: 8px;
+    }
+}
+.test-input-radio-buttons{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        padding-left: 10px;
+        width: 20%;
+}
+.test-outsource{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+}
+.test-form{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    .test-column{
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        gap:10px;
+  
+    .time-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+        .timeContainer-div{
+            width:100%;
+            display: flex;
+        }
+        .icons-size{
+            position: relative;
+            right: 45px;
+            cursor: pointer;
+            height: 24px;
+            width:24px;
+            margin-top:11px;
+        }
+    }
+}
+}
+.test-remarks{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    .input-field-textarea{
+        height: 55px;
+    }
+}
+.refrence-result{
+    margin-top:10px;
+}

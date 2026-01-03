@@ -1,0 +1,264 @@
+.ProfileConfigContainer {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 12.5px;
+    overflow-x: auto;
+    margin-right: 10px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+
+    .title-text {
+        border: none;
+    }
+
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.ProfileContainer {
+    border: 1px solid #E1E1E1;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.ProfileForm {
+    display: flex;
+    gap: 40px;
+}
+
+.timeContainer {
+    display: flex;
+}
+
+.ReportLabel {
+    color: black !important;
+    line-height: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.ProfileCalender {
+    position: relative;
+    right: 45px;
+    cursor: pointer;
+}
+
+.dayscontainer {
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    width: 33.3%;
+    outline: none;
+}
+
+.hoursContainer {
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 12px 20px 10px 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.profileSectionDetails {
+    width: 50%;
+}
+
+.sectionSource {
+    margin-top: -12px;
+    width: 50%;
+
+}
+
+.ReportParamConatiner {
+    display: flex;
+    gap: 20px;
+}
+
+.reportParam {
+    width: 50%;
+}
+
+.ProfileTable {
+    margin-top: 20px;
+
+    .table-layout {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .lims-table-container {
+        min-height: 0px;
+    }
+}
+
+.refrenceResult {
+    .input-fields-root {
+        width: 0px;
+    }
+
+    width: 49.5%;
+}
+
+.numericDropdown {
+    width: 49%;
+    padding: 0px;
+}
+
+.referenceBtns {
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.genderRangeInput {
+    border: 1px solid rgba(225, 225, 225, 1);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 41px;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+}
+
+.genderRangeField {
+    border: 1px solid rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 41px;
+    font-size: 18px;
+    margin-top: 30px;
+    width: 100%;
+    outline: none;
+}
+
+.genderRange {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-top: 1px solid #E1E1E1;
+    gap: 15px;
+}
+
+.genderField {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.lowField,
+.highField {
+    flex-basis: 50%;
+}
+
+.unitField {
+    margin-right: 10px;
+    width: 49.3%;
+}
+
+.ageRangeField {
+    display: flex;
+    line-height: 30px;
+    gap: 20px;
+}
+
+.ageRangeGroup {
+    margin-top: 15px;
+    border-top: 1px solid #E1E1E1;
+    display: block;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.groupFields {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.groupAgeFields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    gap: 20px;
+}
+
+.groupAgeFields>* {
+    flex: 1;
+    min-width: 0;
+}
+
+.ReportSettingsConatiner {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.dateFormatContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.profile-datePicker {
+    border: 1px solid rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    padding: 10px 0px 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 95%;
+    height: 19px;
+    outline: none;
+    margin-top: -20px;
+}
+
+.profile-datePicker::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.profileCalender {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: -37px;
+    left: 94%
+}
+
+.profileCheckBox {
+    width: 20%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 17.5px;
+
+    .checkIcon {
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+    }
+}
+
+.ReportText {
+    .text-area-container {
+        height: 73px;
+    }
+}
+
+
+.common-parent-profileconfig {
+    height: 80px;
+}

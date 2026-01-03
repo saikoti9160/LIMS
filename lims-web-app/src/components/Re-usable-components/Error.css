@@ -1,0 +1,29 @@
+
+.errorContainer {
+
+    height: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.errorIcon {
+
+    height: 80%;
+    width: fit-content;
+}
+
+.errorMessages {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5px;
+    font-family: "Inter", sans-serif;
+    width: fit-content;
+    white-space: nowrap; 
+}

@@ -1,0 +1,85 @@
+.OrganisationCommisionMapping{
+    width: 100%;
+    background-color: white;
+    border-radius: 12.5px;
+    margin: 0px;
+    padding: 20px 20px 0px 20px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .title {
+        margin-bottom: 0px;
+    }
+}
+.ocm-child{
+    border: 1px solid #E1E1E1;
+    border-radius: 15px;
+    padding: 20px 33px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.ocm-title{
+    color: rgba(0, 104, 194, 1);
+    font-weight: 600;
+    font-size: 20px;
+}
+.ocm-dropdown{
+    width: 50%;
+    height: 100px;
+}
+.ocm-radio{
+    display: flex;
+    gap: 20px;
+    .radio-container{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+.ocm-dropdown-content{
+    width: 50%;
+    margin-top: -15px;
+    height: auto;
+    padding:0px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ocm-content{
+    display: flex;
+    justify-content: space-between;
+}
+.ocm-commission-inputs{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+    .lims-table-container {
+        min-height: fit-content;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}
+.ocm-commission-inputs > * {
+    flex: 1;
+}
+.ocm-buttons{
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.ocm-commission-inputs-table{
+    display: block;  
+    margin-bottom: 20px;    
+}
+.ocm-commission-inputs-table  .lims-table-container {
+    min-height: fit-content;
+    width: 100% !important;
+}
+.ocm-commission-inputs-table .total-commission-amount{
+    width: 50%;
+    margin-left: 20px;
+}

@@ -1,0 +1,93 @@
+.service-card {
+    position: relative;
+    width: 411px;
+    height: 475px;
+    overflow: hidden;
+    border-radius: 40px;
+  }
+  
+  .service-card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .decorative-circle {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    background-color: rgba(129, 140, 248, 0.5);
+  }
+  
+  .decorative-circle.top-left {
+    top: -98px;
+    left: -84px;
+  }
+  
+  .decorative-circle.bottom-right {
+    right: -90px;
+  }
+  
+  .service-card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .service-logo {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .service-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .service-name {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .arrow-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66px;
+    height: 47px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .arrow-button:hover {
+    background-color: black;
+
+  }
+  
+  .arrow-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+  }

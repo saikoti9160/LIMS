@@ -1,0 +1,82 @@
+.priceListContainer{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 12.5px;
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.price-list-title{
+    height: 40px;
+    border-bottom: 1px solid #E1E1E1
+}
+.price-list-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 88%;
+}
+
+.price-list-second-image{
+    .decorative-circle{
+        background-color: #A7C58A80;
+    }
+}
+
+.price-list-filter{
+    box-sizing: border-box;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    .dropdown-header{
+        margin: 0px;
+        height: 85%;
+        width: 247px;
+    }
+}
+.price-list-filter-search{
+    height: 100%;
+}
+.price-list-filter-input{
+    width: 297px;
+    border-radius: 28px;
+    border: 1px solid #FCAD54;
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    height: 100%;
+}
+.price-list-search-icon{
+    position: relative;
+    right: 40px;
+    top: 7px;
+}
+.price-list-content{
+    margin-top: 20px;
+    height: 68%;
+}
+.price-list-no-list{
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.price-list-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 30px 0px 0px;
+}
+.price-list-table{
+    .lims-table-container {
+        min-height: 0px;
+    }
+
+    .table-layout {
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+    }
+}

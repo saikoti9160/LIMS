@@ -1,0 +1,99 @@
+.sample-table{
+    width: 100%;
+    height: 100%;
+}
+
+.sample {
+    width: 100%;
+    background-color: white;
+    border-radius: 12.5px;
+    padding: 20px; 
+    box-sizing: border-box;
+    overflow: auto;
+    scrollbar-width: thin;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.parent-containerr{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid;
+    padding: 30px 33.5px 30px 33.5px;
+    border: 1px solid #E1E1E1; 
+  border: 2px solid red;
+  border: 1px solid #E1E1E1;
+    border-radius: 10px;
+}
+.sample-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px;
+    border-radius: 10px;
+    width: 100%;
+ 
+    align-items: flex-start;
+    /* padding-top: 21px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* padding-bottom: 15px; */
+}
+
+.sample-input {
+    width: 47.5%;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 15px; */
+    /* padding-top: 30px; */
+    /* padding-left: 33.5px; */
+    /* padding-right: 33.5px; */
+    /* padding-bottom: 15px; */
+    /* border: 2px solid #a80909;   */
+}
+
+.add-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+    /* border: 2px solid #a80909;   */
+    /* border: 2px solid red; */
+}
+
+.add-btn {
+    background-color: #FFF3E6;
+    border: 1px solid #E47900;
+    padding: 8px 16px;
+    font-weight: 201px;
+    cursor: pointer;
+    color:#E47900;
+    /* margin-top: 20px; */
+}
+.add-sample{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #0068C2;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.button-div {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+}
+
+.error-message {
+    margin-top: 1%;
+    color: #e74c3c;
+    font-size: 0.9rem;
+    justify-content: start;
+    font-family: "Inter", sans-serif;
+}

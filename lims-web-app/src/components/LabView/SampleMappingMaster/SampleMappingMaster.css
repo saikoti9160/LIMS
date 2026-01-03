@@ -1,0 +1,19 @@
+.form-test-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+}
+.form-test{
+    width: 70%;
+}
+#form-sample-type{
+    width: 48% !important;
+}
+.view-all-link{
+    font-size: 12px;
+    color: #FB8500;
+    position: relative;
+    left: 400px;
+    bottom: 25px;
+}

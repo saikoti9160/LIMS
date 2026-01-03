@@ -1,0 +1,206 @@
+.custom-time-picker {
+   display: flex;
+   align-items: center;
+  
+   box-sizing: border-box;
+
+   gap: 15px;
+    border: 1px solid var(--border, #E1E1E1);
+    width:130px;
+  }
+  .time-div{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+  }
+  .common-div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+  }
+  
+  .time-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    justify-content: flex-end !important;
+  }
+  
+  .time-section input {
+    width: 30px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    padding: 0px !important;
+    outline: none;
+  }
+  
+  .separator {
+    padding-bottom: 5px;
+
+  }
+  
+  .period-toggle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+  
+   
+  }
+  .time-period{
+    justify-content: flex-start !important;
+    font-size: 16px;
+    padding-bottom: 3px;
+  }
+  
+  .arrows span {
+    height: 13px !important;
+  }
+  
+  .arrows {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+  }
+
+  
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    z-index: 10;
+  }
+  
+  .dropdown li {
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .dropdown li:hover {
+    background: lightgray;
+  }
+  /* example */
+  .custom-time-picker {
+    width: 130px; 
+    text-align: center;
+    font-weight: bold;
+    font-family: Inter;
+    font-size: 14px;
+    color: #333;
+    border: none;
+  }
+  
+  .custom-time-picker .MuiOutlinedInput-root {
+    border-radius: 4px;
+    background-color:none;
+    transition: border-color 0.3s ease-in-out;
+    height: 32px; /* Reduce input height */
+    min-height: 32px; /* Ensure consistency */
+  }
+  
+  .custom-time-picker .MuiOutlinedInput-root fieldset {
+    border-color: #ccc;
+  }
+  
+  .custom-time-picker .MuiOutlinedInput-root:hover fieldset {
+    border-color: #999;
+  }
+  
+  .custom-time-picker .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color:orange;
+    border-width: 2px;
+  }
+  
+  .custom-time-picker .MuiInputBase-input {
+    text-align: center;
+    padding: 4px 0; /* Reduce padding */
+    font-size: 14px;
+  }
+  .custom-time-picker .MuiPickersPopper-root {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.MuiPaper-root {
+  background-color: #f0f8ff !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
+  /* height: 400px; */
+  /* border: 1px solid red; */
+
+}
+
+/* Style the clock inside the picker */
+/* .MuiTimeClock-root {
+  background-color: #f5f5f5 !important;
+  border-radius: 50%;
+  padding: 10px;
+  border:1px solid red;
+} */
+
+/* Style the AM/PM selection buttons */
+.MuiPickersToolbar-root {
+  color: black !important;
+
+}
+
+
+.custom-time-picker-popup .MuiClockPointer-root {
+  background-color: #76a400 !important;
+}
+
+/* Style the numbers (hours & minutes) */
+.custom-time-picker-popup .MuiClockNumber-root {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+/* Style the confirm button */
+.custom-time-picker-popup .MuiButtonBase-root {
+  background-color: #76a400 !important;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 5px !important;
+  padding: 5px 10px !important;
+}
+
+
+ .MuiButtonBase-root:hover {
+ /* Darker green on hover */
+}
+/* .MuiButtonBase-root{
+ color: orange !important;
+
+} */
+
+/* Change the selected AM/PM text color */
+.MuiTimePickerToolbar-ampmSelection .Mui-selected {
+  color: orange !important; /* Selected AM/PM color */
+  font-weight: bold !important; /* Optional: Make it bold */
+}
+
+
+
+
+

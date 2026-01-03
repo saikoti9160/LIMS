@@ -1,0 +1,178 @@
+.lm-dashboard {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 12.5px;
+  padding: 20px 20px 0px 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  .lims-table-container {
+    min-height: 0px !important;
+  }
+}
+.lmd-heading {
+  height: 40px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.lmd-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: #0068c2;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+.lmd-filter {
+  height: 43px;
+  margin: 19px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lmdf-search {
+  width: 304px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+.lmdf-search-input {
+  border: 1px solid #fcad54;
+  border-radius: 28px;
+  width: 100%;
+  height: 35px;
+  width: 304px;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+}
+.lmdf-search-icon {
+  position: relative;
+  right: 45px;
+  cursor: pointer;
+}
+.lmdf-date {
+  width: 200px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 5px;
+}
+.custum-datepicker {
+  height: inherit;
+  height: 33px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.lmdf-calender-icon {
+  position: relative;
+  right: 25px;
+  cursor: pointer;
+}
+.lmdf-status {
+  width: 150px;
+  height: inherit;
+  padding: 0px 5px;
+  .dropdown-header {
+    width: 150px;
+  }
+}
+.lmdf-country {
+  width: 150px;
+  height: inherit;
+  padding: 0px 5px;
+  .dropdown-header {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+.lmdf-buttons {
+  width: 222px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.lmd-content {
+  box-sizing: border-box;
+  height: 185px;
+  background-color: #fff4f4;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0px;
+}
+.lmdc-one {
+  height: 125px;
+  width: 216px;
+  border-radius: 40px;
+  background-color: #a2a7fd;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.lmdc-two {
+  height: 125px;
+  width: 216px;
+  border-radius: 40px;
+  background-color: #a7c58a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.lmdc-three {
+  height: 125px;
+  width: 216px;
+  border-radius: 40px;
+  background-color: #f6d78b;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.lmdc-four {
+  height: 125px;
+  width: 216px;
+  border-radius: 40px;
+  background-color: #fdcca2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.lmdc-title {
+  width: 100%;
+  color: #535353;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.lmdc-count {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+  color: #0b1722;
+}

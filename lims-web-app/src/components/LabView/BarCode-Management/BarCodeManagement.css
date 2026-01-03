@@ -1,0 +1,241 @@
+.barCodeManagementConatiner {
+  width: 100%;
+
+  .dropdown-header {
+    white-space: nowrap;
+    margin-right: 35px;
+    width: 154px;
+    height: 35px;
+    outline: none;
+    padding: 5px 15px 5px 15px;
+  }
+
+  .placeholder {
+    font-size: 18px;
+    color: black;
+  }
+}
+
+.branchDropdown {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.context-menu {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0.3, 0.3, 0.1, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1000;
+  cursor: pointer;
+  width: 150px;
+}
+
+.context-menu-item {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.context-menu-item:last-child {
+  border-bottom: none;
+}
+
+.context-menu-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.BarCodeManagementDetails {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+}
+
+.BardCode-title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #0068C2;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.barcode-management-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.barcode-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  align-content: center;
+  width: auto
+}
+
+.barcode-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.barcode-image {
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+}
+
+.button-group {
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.back-button,
+.print-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.back-button {
+  background: transparent;
+  border: 2px solid orange;
+  color: orange;
+  width: 78px;
+  height: 43px;
+}
+
+.print-button {
+  width: 144px;
+  height: 43px;
+  background: orange;
+  color: white;
+}
+
+.StoreManagement {
+  width: 100%;
+  height: 780px;
+  background: white;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.dropDownStorageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 20px 10px 20px 0px;
+
+  .dropdown-header {
+    outline: none;
+  }
+
+  .placeholder {
+    font-size: 18px;
+    color: black;
+  }
+}
+
+.storageContainer {
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  box-sizing: border-box;
+}
+
+.storage-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.storage-cell {
+  width: 100%;
+  min-width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f8f8f8;
+}
+
+.occupied {
+  background-color: gray;
+  color: white;
+}
+
+.reserved {
+  background-color: #f4b183;
+  color: black;
+}
+
+.row-part {
+  color: #8A4900;
+  font-weight: bold;
+}
+
+.col-part {
+  color: green;
+  font-weight: bold;
+}
+
+.dataModelContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.data-model {
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  padding: 20px;
+  width: auto;
+  max-width: 60vw;
+  max-height: 70vh;
+  overflow: auto;
+  z-index: 1;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.closerIcon {
+  display: flex;
+  justify-content: flex-end;
+}

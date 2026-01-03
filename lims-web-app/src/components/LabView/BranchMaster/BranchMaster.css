@@ -1,0 +1,122 @@
+.BranchMaster{
+    width: 100%;
+  
+}
+
+.parent-branch-container {
+    width: 100%;
+    /* Width:1099px; */
+    /* Height:1293px; */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    overflow: auto ;
+}
+
+.add-branchTitle {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #0068C2;
+    font-size: 24px !important;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #E1E1E1;
+    width: 100%;
+    line-height: 32px;
+}
+
+.add-branchSection1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px; 
+    /* justify-content: space-between; */
+ 
+    /* flex-wrap: wrap; */
+}
+.add-branchSection2 {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 15px; 
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}
+.branch-header{
+    display: flex;
+    /* border:3px solid red; */
+    gap: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.branch-file{
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.branch-container{
+    border: 1px solid #E1E1E1;
+    padding: 30px 33px 30px;
+    border-radius: 10px;
+}
+.branch-login-container {
+    border: 1px solid #E1E1E1;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.branch-login {
+    width: 100%;
+}
+
+.branch-login-form1{
+width: 100%;
+}
+.branch-login-form2{
+width: 100%;
+}
+
+.branch-login-header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #0068C2;
+    padding-bottom: 15px;
+    font-size: 20px;
+    height: 24px;
+    display: flex;
+    left: 5.5px;
+}
+
+.branch-login-credentials {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 15px;
+}
+.BranchCalenderIcon {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    filter: invert(51%) sepia(93%) saturate(1536%) hue-rotate(345deg) brightness(97%) contrast(91%);
+    top: 38px;
+    left: 90%;
+}
+.add-branchSection-branchTime{
+    /* border: 1px solid red; */
+    position: relative;
+    height: 80px;
+}

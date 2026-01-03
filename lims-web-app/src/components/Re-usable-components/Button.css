@@ -1,0 +1,52 @@
+[class="sign in"]{
+    background-color: #FFF3E6;
+    border: 1px solid  #E47900;
+    font-size: 16px;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    height: 40px;
+    cursor: pointer;
+}
+[class="sign up"],[class="save login credentials"],[class="save & next"],.add,.delete,.save,.update{
+    background-color: #FB8500;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.back,.clear{
+    background-color: #FFF3E6;
+    border: 1px solid  #E47900;
+    font-size: 16px;
+    color: #FB8500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    height: 40px;
+    cursor: pointer;
+}
+[class="book a demo"]{
+    background-color: black;
+    color: rgba(251, 133, 0, 1);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 500;
+    gap: 20px;
+    cursor: pointer;
+}
+
+/* [class="reset password"]{
+    padding: 10px 20px;
+    width: 360px;
+    height: 52px;
+    font-size: 21px;
+    border-radius: 30px;
+    background-color: #FB8500;
+    border: none;
+    color: black;
+} */

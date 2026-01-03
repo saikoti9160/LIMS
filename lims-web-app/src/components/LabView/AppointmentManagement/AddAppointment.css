@@ -1,0 +1,191 @@
+.appointment-scheduling-container {
+    width: 100%;
+    background-color: rgba(255, 253, 251, 1);
+    overflow: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid green;
+}
+
+.appointment-scheduling-group-1 {
+    border-bottom: 1px solid rgba(225, 225, 225, 1);
+}
+
+.appointment-scheduling-group-2 {
+    border: 1px solid rgba(225, 225, 225, 1);
+    border-radius: 15px;
+    padding: 20px 35px 0px 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.appointment-scheduling-header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #0068C2;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.appointment-scheduling-child-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.appointment-scheduling-child-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.appointment-scheduling-child {
+    padding-left: 15px;
+    padding-right: 12px;
+}
+
+.appointment-scheduling-child-container {
+    display: flex;
+    gap: 15px;
+}
+
+.appointment-scheduling-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+    padding-left: 15px;
+
+}
+
+.appointment-scheduling-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+    padding-right: 15px;
+}
+
+.apppointment-details {
+    display: flex;
+    gap: 15px;
+
+}
+
+
+
+.appointment-scheduling-child-header {
+    color: rgba(0, 104, 194, 1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+.apppointment-details-1 {
+    margin: 20px 12px 0px 15px;
+
+}
+
+.apppointment-details-2 {
+    display: flex;
+    gap: 15px;
+    margin: 0px 20px 20px 15px;
+}
+
+.apppointment-details-child-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.apppointment-details-child-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.appointment-details-header {
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 20px;
+    color: rgba(0, 104, 194, 1);
+    font-weight: 600;
+
+}
+.appointmrnent-scheduling-group-3{
+    display: flex;
+    justify-content: end;
+    padding: 10px 0px 10px 0px;
+  
+}
+.appointmrnent-scheduling-btns{
+    display: flex;
+    gap: 15px;
+}
+
+.refferal-model{
+    position: fixed;
+    top: 156.5px;
+    left: 500px;
+    padding: 20px;   
+    border-radius: 30px;
+    background-color: rgba(255, 253, 251, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    z-index: 999;
+}
+.refferal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998; 
+}
+.appointment-refferal-fields{
+    width: 471px;
+}
+.refferal-model-header{
+    width: 664px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.header{
+    color: rgba(0, 104, 194, 1);
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    color: #0068C2;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+.refferal-model-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.add-referral-tag{
+    color:orange;    
+}
+.add-referral-tag-container{
+    display: flex;
+    justify-content: end;
+}

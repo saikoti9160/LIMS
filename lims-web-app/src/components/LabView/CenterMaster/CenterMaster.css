@@ -1,0 +1,59 @@
+.center-master{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 12.5px;
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.center-master-title{
+    height: 40px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.center-master-content{
+    padding:20px 33.5px;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cmc-child{
+    height: 95px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    
+    .phone-input-wrapper{
+        border-radius: 10px;
+    }
+}
+.cmc-child-file{
+    .file-upload-container{
+        height: 73px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+.cmc-field{
+    height: 100%;
+    width: 50%;
+}
+.center-master-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 30px;
+    gap: 15px;
+}
+.centerMaster-Time{
+    position: relative;
+}
+.cmc-icon{
+    position: absolute;
+    right: 15px;
+    bottom: 38px;
+    cursor: pointer;
+}

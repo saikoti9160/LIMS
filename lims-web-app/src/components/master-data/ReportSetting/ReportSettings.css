@@ -1,0 +1,42 @@
+.add-report-setting-header {
+    border-bottom: 1px solid var(--Border, #E1E1E1);
+    height: 40px;
+    margin: 20px 15px 0px 25px;
+    padding: 10px;
+}
+
+.input-field-content[readonly] {
+    color: #A1A1A1;
+    background-color: #f7f7f7;
+    cursor: not-allowed;
+}
+
+.report-setting-inner-container {
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 50px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.report-setting-button-div-container {
+    height: 80px;
+    margin: 20px 15px 0px 25px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+ .report-setting-table{
+    width: 100%;
+}
+
+.report-setting-sub-container{
+    width: 50%;
+}
+.reportPatientInfoName{
+    height: 95px;    
+}

@@ -1,0 +1,55 @@
+.relation {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 12.5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.relation-master{
+    width: 100%;
+}
+ 
+.relation-container{
+    margin-top: 20px;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 50px;
+    padding: 30px;
+}
+ 
+/* .relation-input {
+    flex-basis: 50%;
+} */
+ 
+.button-container {
+   
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+ 
+.relation-heading{
+    height: 40px;  
+    border-bottom: 1px solid #E1E1E1;
+}
+.relation-title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #0068C2;
+    font-size: 32px;
+    display: flex;
+    align-items: center;    
+    height: inherit;
+}
+.button-div {
+    height: 80px;
+    /* width: 95%; */
+    margin: 20px 15px 0px 25px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}

@@ -1,0 +1,83 @@
+.popup-overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ 
+.popup-content {
+    height: 165px;
+    width: 362px;
+    border-radius: 30px;
+    background-color: #E8FFEE;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+ 
+.popup-content-delete {
+    height: 165px;
+    width: 362px;
+    border-radius: 30px;
+    background-color: #FFEAE8;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+ 
+.close-icon {
+    background-color: #FB8500;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    padding: 4px;
+    position: relative;
+    bottom: 60px;
+    left: 350px;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.popup-title {
+    font-weight: 600;
+}
+
+.popup-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.popup-icon-success {
+    background-color: #005518;
+  }
+  
+  .popup-icon-delete {
+    background-color: #BD2E2E;
+  }
+  
+  .popup-icon-alert {
+    background-color: #F8B600;
+  }
+  
+  .popup-icon-error {
+    background-color: #BD2E2E;
+    .popup-image{
+      height: 45px;
+    }
+  }

@@ -1,0 +1,251 @@
+.add-bill-container {
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    margin: 10px;
+    height: inherit;
+    width: 100%;
+    overflow: scroll;
+}
+
+.add-bill-header {
+    border-bottom: 1px solid var(--Border, #E1E1E1);
+    height: 40px;
+    margin: 20px 49px 0px 20px;
+    padding: 10px;
+}
+
+.input-patient-div {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 9px 20px 9px 0px;
+    width: 50%;
+}
+
+.patient-details {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 49px 0px 20px;
+    padding: 20px 0px 20px 33.5px;
+    border: 1px solid #E1E1E1;
+    border-radius: 15px;
+}
+
+.select-test {
+    width: 471px;
+    margin: 20px 588px 0px 20px;
+}
+
+.radio-btn {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 20px;
+    font-weight: 500;
+    font-size: Medium;
+}
+
+.add-test-div {
+    border: 1px solid #E1E1E1;
+    border-radius: 15px;
+    margin: 20px 49px 0px 20px;
+}
+
+.add-test-header {
+    height: 40px;
+    margin: 20px 49px 0px 33px;
+}
+
+.add-test {
+    color: rgba(0, 104, 194, 1);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.test-name-div {
+    margin-left: 33px;
+    width: 471px;
+}
+
+.coupon {
+    color: rgba(0, 104, 194, 1);
+    font-weight: 600;
+    font-size: 20px;
+    width: 965px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.coupon-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 12px 0px 15px;
+}
+
+.add-coupon-div {
+    margin: 20px 49px 0px 20px;
+    border: 1px solid #E1E1E1;
+    border-radius: 15px;
+}
+
+.coupon-discount {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 15px 0px 0px 15px;
+}
+
+.coupon-name-outer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.discount-name-outer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.organisation {
+    color: rgba(0, 104, 194, 1);
+    font-weight: 600;
+    font-size: 20px;
+    width: 965px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.org-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 12px 0px 15px;
+}
+
+.organisation-details {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 15px 0px 0px 15px;
+}
+
+.org-name-outer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.price-outer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.additionalDetails-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 12px 0px 15px;
+    margin-bottom: 20px;
+}
+
+.additionalDetails {
+    color: rgba(0, 104, 194, 1);
+    font-weight: 600;
+    font-size: 20px;
+    width: 965px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.additionalDetails-outer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.additional-outer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.paymentDetails {
+    margin: 20px 49px 0px 20px;
+    border: 1px solid #E1E1E1;
+    border-radius: 15px;
+    padding: 20px 27px 0px 33px;
+}
+
+.payment-header {
+    color: rgba(0, 104, 194, 1);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.paymentDetails-div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.paymentMode,
+.amount-div {
+    width: 50%;
+    margin: 15px 0px 15px 0px;
+}
+
+.add-btn-div {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.billsummary-div {
+    margin: 20px 49px 0px 20px;
+    border: 1px solid #E1E1E1;
+    border-radius: 15px;
+    padding: 20px 27px 0px 33px;
+}
+
+.billsummary-header {
+    color: rgba(0, 104, 194, 1);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 49px 4px 20px;
+    padding: 10px;
+}
+
+.confirm-print-div {
+    display: flex;
+    width: inherit;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.viewAll {
+    position: relative;
+    color: #FB8500;
+    top: -22px;
+    left: 170px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.billTable {
+    width: 100%;
+}

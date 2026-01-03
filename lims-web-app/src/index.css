@@ -1,0 +1,423 @@
+body {
+  /* margin: 30px; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(254, 217, 176, 1);
+  margin: 0px;
+  /* overflow: hidden; */
+  overflow-y: hidden;
+}
+
+/* ::-webkit-scrollbar {
+  width: 0px !important;
+} */
+
+::placeholder, .placeholder {
+  color: rgba(128, 128, 128, 0.55);
+  opacity: 1;
+  font-family: Inter;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --font-size-80: 5.000rem; /* 80px */
+  --font-size-61: 3.812rem; /* 61px */
+  --font-size-47: 2.938rem; /* 47px */
+  --font-size-36: 2.250rem; /* 36px */
+  --font-size-27: 1.688rem; /* 27px */
+  --font-size-21: 1.312rem; /* 21px */
+  --font-size-16: 1.000rem; /* 16px */
+  --font-size-12: 0.750rem; /* 12px */
+
+  --orange-50: #fff3e6;
+  --orange-100: #fed9b0;
+  --orange-200: #fdc78a;
+  --orange-300: #fcad54;
+  --orange-400: #fc9d33;
+  --orange-500: #fb8500;
+  --orange-600: #e47900;
+  --orange-700: #b25e00;
+  --orange-800: #8a4900;
+  --orange-900: #693800;
+
+  --blue-50: #e8ebee;
+  --blue-100: #b8c1c9;
+  --blue-200: #96a3af;
+  --blue-300: #66798a;
+  --blue-400: #485f73;
+  --blue-500: #1a3750;
+  --blue-600: #183249;
+  --blue-700: #122739;
+  --blue-800: #0e1e2c;
+  --blue-900: #0b1722;
+    font-family: Inter;
+}
+
+
+
+body {
+  font-size: var(--font-size-16); 
+  color: var(--blue-900);
+}
+
+h1 {
+  font-size: var(--font-size-80);
+}
+
+h2 {
+  font-size: var(--font-size-61);
+}
+
+h3 {
+  font-size: var(--font-size-47);
+}
+
+h4 {
+  font-size: var(--font-size-36);
+}
+
+h5 {
+  font-size: var(--font-size-27);
+}
+
+h6 {
+  font-size: var(--font-size-21);
+}
+
+p, span {
+  font-size: var(--font-size-16);
+}
+
+small {
+  font-size: var(--font-size-12);
+}
+
+
+.button {
+  width: 304px; /* Fixed width */
+  height: 35px; /* Fixed height */
+  gap: 8px; /* Gap between elements */
+  border-radius: 28px 0 0 0; /* Custom border radius */
+  border: 1px solid transparent; /* Border customization */
+  opacity: 1; /* Default visibility */
+  font-size: var(--font-size-16);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-orange {
+  background-color: var(--orange-500);
+  color: white;
+}
+
+.button-blue {
+  background-color: var(--blue-500);
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.input {
+  width: 304px;
+  height: 35px;
+  border-radius: 28px 0 0 0;
+  border: 1px solid var(--blue-300);
+  padding: 0 8px;
+  font-size: var(--font-size-16);
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: var(--blue-500);
+  outline: none;
+}
+.bg-global {
+  background-color: var(--orange-100) !important;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  background-color: rgba(255, 244, 231, 0.5);
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.inner-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-language {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-search {
+  box-shadow: 0px 1px 18px -5px rgba(252,173,84,1);
+  border-radius: 50px;
+}
+
+.profile-name {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 700;
+
+}
+
+.profile-login-type {
+  color: rgba(128, 128, 128, 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.header-middle-section {
+  display: flex;
+  gap: 40px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  span {
+    cursor: pointer;
+  }
+  
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-logo {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(252, 157, 51, 1);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+}
+
+.notification-bell {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  top: 20px;
+  left: 50px;
+  cursor: pointer;
+}
+
+.profile-login-type-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 75px;
+  padding: 20px 30px;
+  background-color: rgba(255, 243, 230, 1);
+  border-radius: 0px 0px 10px 10px;
+  gap: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  right: 15px;
+
+  .my-profile {
+    color: rgba(50, 50, 50, 1);
+  }
+
+  .logout {
+    color: rgba(251, 133, 0, 1);
+    display: flex;
+    justify-content: start;
+    width: 100%;
+  }
+}
+
+.header-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 500;
+  gap: 20px;
+}
+
+.sign-in-btn {
+  border: 1px solid rgba(228, 121, 0, 1);
+  background-color: rgba(255, 243, 230, 1);
+}
+
+.sign-up-btn {
+  background-color: rgba(251, 133, 0, 1);
+  color: white;
+}
+
+.book-demo-btn {
+  background-color: black;
+  color: rgba(251, 133, 0, 1);
+}
+
+input[type="checkbox"] {
+  accent-color: rgba(251, 133, 0, 0.285);
+}
+
+.title {
+  color: rgba(0, 104, 194, 1);
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E1E1E1;
+  padding-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none;
+
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.btn-signIn {
+  background-color:  #FFF3E6;
+  color: black; 
+  border: 1px solid #E47900; 
+}
+
+
+.btn-signIn:hover {
+  background: #FED9B0;
+}
+
+/* for the update and save the buttons which have color white on the button */
+.btn-primary  {
+  background-color: #FB8500; 
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #E06D00; 
+}
+
+/* for the buttons which have background light color on the button */
+.btn-secondary {
+  background-color: #FFF3E6;
+  color: #FB8500; 
+  border: 1px solid #E47900; 
+}
+
+
+.btn-secondary:hover{
+  background-color: #FFE6CC; 
+}
+
+
+.btn-special {
+  background-color: black;
+  color: rgba(251, 133, 0, 1); 
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+
+.btn-special:hover {
+  background-color: #333333;
+}
+
+
+
+
+/* for the cancel buttons */
+.btn-cancel {
+  background-color: transparent;
+  border: 1px solid #E47900;
+  color: #E47900;
+}
+
+.btn-cancel:hover {
+  background-color: #FFF3E6;
+}
+
+/* for the  add buttons */
+.btn-add{
+  background-color: #FB8500; 
+  color: black;
+  border: none;
+  padding: 10px 30px;
+}
+.btn-clear{
+  background-color: #FFF3E6;
+  color: #FB8500; 
+  border: 1px solid #E47900; 
+  padding: 10px 30px;
+}
+
+.eye-icon {
+  cursor: pointer;
+}

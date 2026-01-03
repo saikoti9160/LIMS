@@ -1,0 +1,202 @@
+.role-l-container {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.add-role-l-container {
+    width: 100%;
+    background-color: #FFFDFB;
+    border-radius: 12.5px;
+    padding: 20px;
+    overflow: auto;
+    .role-head{
+      margin: 0px !important;
+      margin-bottom: 20px !important;
+    }
+}
+.role-fields-div {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px
+}
+
+.role-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.body-tr td {
+    padding: 8px;
+}
+
+.category-header {
+    font-weight: bold;
+    padding: 10px;
+    text-align: start;
+
+}
+.check-div {
+    text-align: center;
+}
+.role-data-div {
+    width: 100%;
+}
+.table-body {
+    width: 100%;
+}
+.table-role-div{
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 15px;
+}
+.category-wrapper {
+    padding: 0;
+}
+.category-container {
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    background-color: #FFF3E6;
+
+}
+.category-title {
+    font-size: 24px;
+    color: #0068C2;
+    font-weight: 400;
+}
+.category-items {
+    padding: 0px 10px;
+
+
+}
+.category-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+
+}
+
+.category-item span {
+    width: 40%;
+    text-align: start;
+
+}
+.checkbox-group {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    width: 60%;
+}
+
+  .checkbox-group input[type="checkbox"]{
+    width: 24px;
+    height: 24px;
+    accent-color: #ff9800;
+    cursor: pointer;
+  }
+  .category-header input[type="checkbox"]{
+    width: 24px;
+    height: 24px;
+    accent-color: #ff9800;
+    cursor: pointer;
+  }
+.category-item span{
+    
+font-weight: 400;
+font-size: 20px;
+ 
+
+  }
+
+  .category-wrapper-head{
+    width: 44%;
+    text-align: start;
+    
+  }
+  .category-container-head{
+    display: flex;
+    width: 56%;
+    gap: 15px;
+  }
+.category-title-head{
+    width: 12%;
+
+}
+
+.span-style-0 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    width: 20%;
+    font-weight: 400;
+
+  }
+  
+  .span-style-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    width: 20%;
+    font-weight: 400;
+
+  }
+  
+  .span-style-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    width: 20%;
+    font-weight: 400;
+
+  }
+  
+  .span-style-3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    width: 20%;
+    font-weight: 400;
+
+  }
+  .span-style-4{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    width: 14%;
+    font-weight: 400;
+  
+  }
+  .th-head{
+    display: flex;
+    background-color: #FFF3E6;
+    padding: 5px 15px;
+    color: #333;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .lab-role-tr th{
+    font-weight: 400;
+  }
+ 

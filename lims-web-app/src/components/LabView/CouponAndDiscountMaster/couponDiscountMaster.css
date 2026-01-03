@@ -1,0 +1,144 @@
+.container-div{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 20px 10px;
+    min-height:700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%; 
+}
+.coupon-form-container{
+    border:1px solid #E1E1E1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom:10px;
+
+}
+.coupon-form-container{
+.section-title{
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    text-align: left !important;
+    margin-top:0px !important;
+}
+.form-section{
+    border:none;
+    margin:0px;
+    padding:0px;
+}
+}
+
+.button-container{
+    margin:5px;
+    .button-save{
+        margin:5px 5px;
+    }
+}
+
+.coupon-form-container{
+    .form-row{
+        gap:60px;
+    .form-group{
+        label{
+            font-size: 16px;
+            color:#323232;
+            font-weight: 600;
+            line-height: 19px;
+            margin-bottom:5px;
+        }
+    }}
+.form-group{
+
+    /* .radio-group{
+        display: flex;
+        gap: 10px;
+        label{
+            display: flex;
+            align-items: center;
+    }
+} */
+}  
+.input-field-container{
+    margin-bottom:10px;
+}
+.input-field-textarea{
+    border-radius:8px;
+    height:43px !important;
+    top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.input-field-textarea::placeholder{
+    text-align: left;
+    display: flex;
+    align-items: center;
+   
+}
+.dropdown-header{
+    margin-top: 10px;
+}
+.dynamic-dropdown{
+    margin-bottom: 10px;
+}
+}
+.div-conditions{
+    display: flex;
+    width:100%;
+    @media (min-width: 1537px) {
+        gap:28px !important;
+    } 
+    gap:5%;
+.age-range-div{
+    display: flex column;
+    width:48%;
+    @media (min-width: 1537px) {
+        width: 50% !important;
+    }  
+    
+    .range-div{
+        display: flex;
+        gap:20px;
+        @media (min-width: 1537px) and (max-width: 1920px) {
+            gap:115px !important;
+        } 
+        .input-field-container{
+            width:90% !important; 
+            @media (min-width: 1537px) and (max-width: 1920px) {
+                width: 130% !important;
+            } 
+            padding:10px 12px;
+         }
+    }
+}
+.visit-frequency{
+    display:flex column;
+.checkbox-group{
+    display:flex;
+    margin-top: 10px;
+    gap:10px;
+    justify-content: center;
+
+    label{
+       display: flex;
+       align-items: center;
+       color:#535353;
+       font-size: 16px;
+       line-height: 16px;
+       font-weight:400;
+       margin:0px;
+      
+    }
+    .visit-frequency-checkbox{
+        display: flex;
+        gap:5px;
+        align-items: center;
+        margin-top:20px;
+        label{
+            margin-top: -5px;
+        }
+      
+    }
+}
+
+}}

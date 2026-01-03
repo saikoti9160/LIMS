@@ -1,0 +1,123 @@
+.lab-profile{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFDFB;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 12.5px;
+}
+.lab-profile-title-container{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 3px;
+}
+.lab-profile-title{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 104, 194, 1);
+    font-weight: 400;
+    font-size: 30px;
+}
+.tabs-parent-lab-profile{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+.lab-profile-content{
+    .profile-container{
+        padding: 20px 0px;
+    }
+}
+.lpc-edit-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 34px 10px 0px;
+}
+.lpc-title{
+    color: rgba(0, 104, 194, 1);
+    font-weight: 400;
+    font-size: 24px;
+}
+.lpc-address{
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    height: 215px;
+    padding: 20px;
+}
+.lpc-address-update-profile{
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    height: 175px;
+    padding: 20px;
+}
+.lpc-address-child{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    height: 95px;
+}
+.lpc-poc-child{
+    width: 32%;
+}
+.lpc-fields{
+    width: 100%;
+    .phone-input-wrapper{
+        border-radius: 10px;
+    }
+}
+.lpc-poc-details{
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    height: 239px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.lpc-poc-buttons{
+    display: flex;
+    gap: 15px;
+    padding: 20px 0px; 
+}
+.lpc-equipment{
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    height: 151px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.lpc-equipment-buttons{
+    display: flex;
+    gap: 15px;
+    padding: 5px 0px ; 
+}
+.lab-profile-branch{
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    height: 435px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.lpc-branch-address{
+    width: 66.2%;
+}
+
+.lab-profile-buttons{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+}
+.lab-address-buttons{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 100%;
+}

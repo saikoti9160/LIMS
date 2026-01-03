@@ -1,0 +1,303 @@
+.input-fields-root {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.file-upload-container {
+  border: 1px solid #E1E1E1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  position: relative;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+.file-upload-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-upload-placeholder {
+  color: #808080;
+  font-weight: 400;
+  font-size: 18px;
+  pointer-events: none;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field-container {
+  border: 1px solid rgba(225, 225, 225, 1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 21px;
+}
+
+.input-field-container-disabled {
+  background-color: #F6F6F6;
+  color: #535353;
+}
+
+.existing-filename {
+  cursor: default;
+}
+
+.input-field {
+  border: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.input-field-textarea {
+  resize: horizontal;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 8px;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+}
+
+.text-area-container {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.input-field-textarea:focus {
+  outline: none;
+  border: 1px solid #E1E1E1;
+}
+
+
+.phone-number-field {
+  display: flex;
+  flex-direction: column;
+  height: 43px;
+  width: 100%;
+}
+
+.phone-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.required {
+  color: red;
+  font-size: 18px;
+}
+
+.phone-input-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  position: relative;
+  height: inherit;
+}
+
+.country-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid #ccc;
+  padding: 0px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  height: inherit;
+
+}
+
+.selected-country {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.dropdown-arrow-phone {
+  font-size: 12px;
+}
+
+.dropdown-options-phone {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 97px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  height: 170px;
+  overflow: scroll;
+}
+
+.down-phone-arrow {
+  width: 15px;
+  height: 15px;
+}
+
+.dropdown-option-phone {
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dropdown-option-phone:hover {
+  background-color: #f0f0f0;
+}
+
+.phone-number-input-container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 16px;
+  height: inherit;
+  width: 100%;
+}
+
+.phone-input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.phone-div {
+  border-right: 1px solid #E1E1E1;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.dial-code {
+  padding: 0px 10px;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-credentials-auto-fill-button {
+  display: none;
+}
+
+.close-button {
+  height: 15px;
+  width: 15px;
+  margin: 10px;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.radio-container input {
+  display: none;
+}
+
+.checkbox-container input[type="checkbox" i] {
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #fb8500;
+}
+
+.custom-radio,
+.custom-checkbox .checkbox-container {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fb8500;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.custom-checkbox {
+  position: absolute;
+  left: 5px;
+}
+
+.checkbox-container {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.custom-radio::after,
+.custom-checkbox::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #fb8500;
+  border-radius: 50%;
+  display: none;
+}
+
+.radio-container input:checked+.custom-radio::after,
+.checkbox-container input:checked+.custom-checkbox::after {
+  display: block;
+}
+
+.radio-label,
+.checkbox-label {
+  font-size: 18px;
+}
+
+.phone-input-wrapper-disabled {
+  background-color: #F6F6F6;
+}
+
+.text-area-container-disabled {
+  background-color: #F6F6F6;
+  color: #535353;
+  resize: none;
+}
+
+.file-upload-container-disabled {
+  background-color: #F6F6F6;
+  color: #535353;
+}
